@@ -3,7 +3,7 @@ FROM python:3.11-buster
 
 # Set environment variables for Spark and Java
 ENV JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
-ENV SPARK_VERSION=3.5.2
+ENV SPARK_VERSION=3.5.5
 ENV HADOOP_VERSION=3
 ENV SPARK_HOME=/home/spark
 ENV PATH=$SPARK_HOME/bin:$PATH
